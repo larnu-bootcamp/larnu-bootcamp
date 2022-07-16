@@ -1,4 +1,4 @@
-![LarnU](../_src/assets/00-PrimerosPasos/logo_LarnU.png)
+![LarnU](_src/assets/00-PrimerosPasos/logo_LarnU.png)
 
 
 # Bienvenido al bootcamp de LarnU 👽
@@ -9,7 +9,7 @@ En este [link](#) vas a encontrar el repositorio con las homeworks de cada unida
 
 ## Canales de DISCORD
 
-![LarnU](../_src/assets/00-PrimerosPasos/discord.png)
+![LarnU](_src/assets/00-PrimerosPasos/discord.png)
 
 
 ## Editores de Texto
@@ -20,7 +20,7 @@ Hay varios editores de código, pero acá veremos una lista de los más populare
 
 ### Sublime Text
 
-![Sublime Text](../_src/assets/00-PrimerosPasos/sublimeText_screen.png)
+![Sublime Text](_src/assets/00-PrimerosPasos/sublimeText_screen.png)
 
 Es un editor de texto liviano, que cuenta con una serie de plugins para adaptarlo a las necesidades de cada desarrollador.
 
@@ -38,7 +38,7 @@ Para instalarlo, realizaremos los siguientes pasos:
 
 4. Elegimos la opción adecuada según nuestro sistema operativo e iniciamos la descarga.
 
-![Sublime Text Download](../_src/assets/00-PrimerosPasos/sublimeText_download.png)
+![Sublime Text Download](_src/assets/00-PrimerosPasos/sublimeText_download.png)
 
 5. Finalizada la descarga, ejecutamos el instalador, seleccionamos las opciones **_siguiente, siguiente, etc_**, hasta completar el proceso.
 
@@ -74,11 +74,11 @@ sudo apt-get install sublime-text
 
 Ahora, si en el **Menú de inicio** buscamos **Sublime text**, veremos la siguiente imagen:
 
-![Sublime Text Linux](../_src/assets/00-PrimerosPasos/sublimeText_linux.png)
+![Sublime Text Linux](_src/assets/00-PrimerosPasos/sublimeText_linux.png)
 
 ### Atom
 
-![Atom Site](../_src/assets/00-PrimerosPasos/atom_site.png)
+![Atom Site](_src/assets/00-PrimerosPasos/atom_site.png)
 
 Es un editor de código abierto, disponible tanto para Windows, como Linux y para OS X.
 
@@ -105,7 +105,7 @@ Al hacer doble click, se abrirá el editor.
 
 ### Visual Studio Code
 
-![VSC Console](../_src/assets/00-PrimerosPasos/vsc_console.png)
+![VSC Console](_src/assets/00-PrimerosPasos/vsc_console.png)
 
 Es un editor desarrollado por Microsoft.
 
@@ -115,7 +115,7 @@ Para descargarlo, nos dirigimos al sitio oficial, en la sección Dowload y desca
 
 <https://code.visualstudio.com/download>
 
-![VSC Download](../_src/assets/00-PrimerosPasos/vsc_download.png)
+![VSC Download](_src/assets/00-PrimerosPasos/vsc_download.png)
 
 Una vez finalizada la descarga, procedemos a ejecutar el instalador.
 
@@ -127,7 +127,7 @@ Para instalar Node js en nuestra computadora, nos dirigimos al sitio oficial:
 
 Al ingresar, el sitio detectará nuestro Sistema Operativo y nos sugerirá que descarguemos el instalador adecuado.
 
-![Node.JS Screen](../_src/assets/00-PrimerosPasos/nodejs_screen.png)
+![Node.JS Screen](_src/assets/00-PrimerosPasos/nodejs_screen.png)
 
 Para proceder a la descarga, seleccionamos la versión LTS, que es la versión estable.
 Una vez finalizada la descarga, procedemos a ejecutar el instalador.
@@ -182,33 +182,33 @@ Ver estos enlaces:
 
 Ingreso a <https://git-scm.com> y descargo la útlima versión.
 
-![installGit](../_src/assets/00-PrimerosPasos/instalar_window.png)
+![installGit](_src/assets/00-PrimerosPasos/instalar_window.png)
 
 Una vez descargado, se abre el archivo .exe y van a visualizar la siguiente ventana
 
-![installGit](../_src/assets/00-PrimerosPasos/1.png)
+![installGit](_src/assets/00-PrimerosPasos/1.png)
 
 Clickeamos “Next” hasta que llegamos a esta parte:
 
-![installGit](../_src/assets/00-PrimerosPasos/2.png)
+![installGit](_src/assets/00-PrimerosPasos/2.png)
 
 En este momento de la instalación si quieres puedes elegir el editor de texto que van a usar. (Importante, ténganlo instalado antes de instalar Git)
 
 Seguimos clickeando “Next” y luego “Install”
 
-![installGit](../_src/assets/00-PrimerosPasos/3.png)
+![installGit](_src/assets/00-PrimerosPasos/3.png)
 
 Por último, finalizar! Si seleccionan la opción "Launch Git Bash", una vez que finalizan la instalación se va a abrir la consola
 
-![installGit](../_src/assets/00-PrimerosPasos/4.png)
+![installGit](_src/assets/00-PrimerosPasos/4.png)
 
 Otra forma de abrir la consola es haciendo click derecho sobre el escritorio y elegir la opción "Git Bash Here"
 
-![installGit](../_src/assets/00-PrimerosPasos/consola.png)
+![installGit](_src/assets/00-PrimerosPasos/consola.png)
 
 Una vez instalado Git van a poder visualizar la consola: ingresamos el comando `git --version` para chequear que está instalado. Si ven la consola así, ya están listos para comenzar a trabajar!
 
-![installGit](../_src/assets/00-PrimerosPasos/5.png)
+![installGit](_src/assets/00-PrimerosPasos/5.png)
 
 
 ## Uso de Git
@@ -503,15 +503,15 @@ git push origin master
 
 1. Para comenzar nos creamos una cuenta --- > <https://github.com> 🚀
 
-![GitHub-Register](../_src/assets/00-PrimerosPasos/github_register.png)
+![GitHub-Register](_src/assets/00-PrimerosPasos/github_register.png)
 
 2. Una vez registrados, ingresamos con usuario y contraseña:
 
-![GitHub-Login](../_src/assets/00-PrimerosPasos/github_login.png)
+![GitHub-Login](_src/assets/00-PrimerosPasos/github_login.png)
 
 3. Listo! Ahora vemos una página de inicio como la siguiente:
 
-![GitHub-Home](../_src/assets/00-PrimerosPasos/github_home.png)
+![GitHub-Home](_src/assets/00-PrimerosPasos/github_home.png)
 
 A la izquierda tenemos un acceso rápido a **mis repositorios**.
 
@@ -519,7 +519,7 @@ En el centro vemos la actividad de los usuarios a quienes seguimos.
 
 En la parte superior derecha, vemos nuestra imagen de perfil. Desde ahí podemos desplegar opciones para gestionar nuestro perfil, repositorios y configuración. Si accedemos a nuestro perfil encontramos algo parecido a esto:
 
-![GitHub-profile](../_src/assets/00-PrimerosPasos/github_profile.png)
+![GitHub-profile](_src/assets/00-PrimerosPasos/github_profile.png)
 
 Podemos poner una foto de perfil, editar el nombre, agregar la ubicación, link y organizaciones a las que pertenecemos. En el centro podemos fijar los repositorios que queremos mostrar para que estén visibles en nuestro perfil.
 
@@ -527,7 +527,7 @@ Más abajo se muestra un diagrama de todas las contribuciones que vamos haciendo
 
 Si accedemos a la pestaña de arriba que dice `repositorios` veremos una lista de todos ellos. Cuando elegimos un repositorio para ver, nos lleva a una página como esta:
 
-![GitHub-repo](../_src/assets/00-PrimerosPasos/github_repo.png)
+![GitHub-repo](_src/assets/00-PrimerosPasos/github_repo.png)
 
 Así se ve un repositorio. Arriba a la izquierda tenemos el `nombre de usuario/nombre del repo`.
 
