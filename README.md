@@ -1,11 +1,13 @@
 ![LarnU](_src/assets/00-PrimerosPasos/logo_LarnU.png)
 
-## prueba
+<br>
+<br>
+
 # Bienvenido al bootcamp de LarnU 👽
 
 ## Homeworks
 
-En este [link](#) vas a encontrar el repositorio con las homeworks de cada unidad en su correspondiente carpeta.
+En este [link](https://github.com/larnu-bootcamp/larnu-bootcamp.git) vas a encontrar el repositorio con las homeworks de cada unidad en su correspondiente carpeta.
 
 ## Canales de DISCORD
 

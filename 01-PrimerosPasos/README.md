@@ -1,64 +1,21 @@
-# Desafío: Git
+![LarnU](../_src/assets/00-PrimerosPasos/logo_LarnU.png)
 
-### Pre-requisitos
+<br>
+<br>
 
-* Crear una cuenta en [Github.com](https://www.github.com/).
-* Si usas una computadora con Windows, puedes instalar la terminal de comandos _git-bash_ haciendo click [acá](https://git-for-windows.github.io/).
-* Si usas Mac, `git` viene pre-instalado y puedes acceder desde la terminal pulsando ⌘+Espacio y escribiendo "terminal". Puedes asegurarte de que git está instalado escribiendo `which git` en la terminal y pulsando Enter, si aparece la ruta de un archivo está todo correcto. En algunas ocasiones, podrías ser redireccionado a la descarga de la línea de comandos de Xcode, sigue las instrucciones.
-* Si usas Linux, tal vez necesites instalar git accediendo a tu terminal e ingresado `apt-get install git`
-* Si tienes problemas instalando Git, este recurso puede servir de ayuda: [Instalación de Git](https://git-scm.com/book/es/v2/Inicio---Sobre-el-Control-de-Versiones-Instalaci%C3%B3n-de-Git)
+# Desafío: Git - Gtihub
 
+## Pre-requisitos
 
-### Comandos básicos de terminal
+* Tener una cuenta en [Github.com](https://www.github.com/).
+* Tener git instalada en nuestra PC.
 
 > Usaremos la "terminal" o "línea de comandos" durante tu tiempo en LarnU. Si estás en una computadora con Mac o Linux, deberías tener la terminal y git ya instalados. Si estás en una máquina con Windows, te recomendamos instalar ["git-bash"](https://gitforwindows.org/).
 
-Dentro de nuestra terminal podemos: revisar nuestra estructura de archivos, añadir, eliminar y modificar archivos, y muchas cosas más. La terminal es una herramienta muy poderosa para los desarrolladores y vas a usarla mucho en tu carrera profesional. Al principio puede parecer aterrador, pero con el tiempo terminarás disfrutando su uso, así que es mejor acostumbrarse ahora. Para comenzar, aprenderemos los comandos "básicos":
+<br>
+<br>
 
-"List": Nos permite ver el contenido de la carpeta donde nos encontramos.
-```bash
-  $ ls
-```
-
-
-"Change Directory": Nos permite movernos a una nueva carpeta o "directorio"
-```bash
-  $ cd [carpeta]
-```
-
-"Make Directory": Crea una nueva carpeta en el directorio donde nos encontramos actualmente.
-```bash
-  $ mkdir [nombre de la carpeta]
-```
-
-"Touch" creará un nuevo archivo.
-```bash
-  $ touch [nombre del archivo]
-```
-
-"Remove": Elimina permanentemente un archivo. ¡CUIDADO! Esto traspasa cualquier "papelera de reciclaje" que exista en el sistema y elimina los archivos PERMANENTEMENTE. Como nota, esto no eliminará carpetas, necesitamos un comando especial para eso que aprenderemos más adelante.
-
-```bash
-  $ rm [nombre del archivo]
-```
-
-## Crea un repositorio de Git y haz tu primer commit
-
-Le indicaremos a Git que queremos crear un nuevo repositorio para utilizar un sistema de control de versiones.
-Solo debemos posicionarnos en la carpeta raíz de nuestro proyecto y ejecutar el comando git init.
-
-Recuerda que al ejecutar este comando (y de aquí en adelante) vamos a tener una nueva carpeta llamada **.git** con toda la base de datos con cambios atómicos en nuestro proyecto.
-
-Recuerda que Git está optimizado para trabajar en equipo, por lo tanto, debemos darle un poco de información sobre nosotros. No debemos hacerlo todas las veces que ejecutamos un comando, basta con ejecutar solo una vez los siguientes comandos con tu información:
-
-```shell
-git config --global user.name "tu nombre"
-git config --global user.email "tu@email.com"
-```
-
-Existen muchas otras configuraciones de Git que puedes encontrar en el comando git config --list (o solo git config para ver una explicación más detallada)
-
-## Ejercicio
+## Ejercicio I
 
 En este ejercicio crearemos un nuevo repositorio en Github y a partir de la linea de comandos crearemos un nuevo archivo y lo agregaremos a nuestro nuevo repositorio.
 
@@ -82,11 +39,11 @@ y presiona Enter. ¡Felicitaciones, has creado un directorio!
 
 Entra a github.com y logueate con tu usuario. Luego en la parte de arriba a la derecha buscá el signo '+' y elige 'new repository'.
 
-![alt](../../_src/assets/01-Git/repo-create.png)
+![alt](../_src/assets/01-Git/repo-create.png)
 
 En la nueva pantalla, vas a tener que seleccionar el nombre de tu nuevo repo. Crea un repo que se llame: `repositorio-LarnU`. Puedes agregarle una descripción también, pero no es obligatoria.
 
-![alt](../../_src/assets/01-Git/create-repository-name.png)
+![alt](../_src/assets/01-Git/create-repository-name.png)
 
 Luego elige la visibilidad del proyecto como público.
 
@@ -120,7 +77,7 @@ En este ejercicio, añadiremos un archivo a nuestro proyecto y crearemos un comm
 A continuación, escribe lo siguiente en tu terminal:
 
 ```bash
-  $ cd rrepositorio-LarnU
+  $ cd repositorio-LarnU
   
   $ touch archivo-ejemplo.html
 ```
