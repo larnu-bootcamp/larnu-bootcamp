@@ -35,9 +35,13 @@ II. Cree una página que contenga un título de primer nivel \<h1> y luego dos t
 
 III. Cree una página principal que tenga un enlace a otra página secundaria. La página secundaria debe tener también un enlace a la página principal. 
 
+`Resultado`
+
 ![alt text](../_src/assets/02-Html/ejercicio4.PNG)
 
 IV. Cree una página que contenga cuatro enlaces ancla, luego definir cuatro enlaces las cuales se enlacen con dichas anclas. 
+
+`Resultado`
 
 ![alt text](../_src/assets/02-Html/ejercicio5.PNG)
 
