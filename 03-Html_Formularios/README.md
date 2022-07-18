@@ -22,3 +22,7 @@ II. `Resultado`
 III. `Resultado`
 
 ![alt text](../_src/assets/03-Html/ejercicio3.PNG)
+
+IV. `Resultado`
+
+![alt text](../_src/assets/03-Html/ejercicio4.PNG)

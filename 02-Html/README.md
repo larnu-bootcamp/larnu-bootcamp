@@ -12,6 +12,7 @@
 Crear un nuevo archivo dentro de la carpeta `Desafío` llamado `desafio.html` donde deberás realizar lo siguiente:
 
 I. Cree una página HTML básica el cual contenga 2 divisiones:
+
 - En la primera division cree un parrafo que muestre 4 o 5 nombres de lenguajes de programación, separados por un guión.
 
 `Resultado`
@@ -26,6 +27,7 @@ I. Cree una página HTML básica el cual contenga 2 divisiones:
 ![alt text](../_src/assets/02-Html/ejercicio2.PNG)
 
 
+
 II. Cree una página que contenga un título de primer nivel \<h1> y luego dos títulos de nivel \<h2>. Definir un párrafo lorem para cada título de segundo nivel. 
 
 `Resultado`
@@ -38,6 +40,7 @@ III. Cree una página principal que tenga un enlace a otra página secundaria. L
 `Resultado`
 
 ![alt text](../_src/assets/02-Html/ejercicio4.PNG)
+
 
 IV. Cree una página que contenga cuatro enlaces ancla, luego definir cuatro enlaces las cuales se enlacen con dichas anclas. 
 
