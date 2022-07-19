@@ -3,66 +3,47 @@
 <br>
 <br>
 
-# Desafío: Html
+# Desafío: HTML
 
 ## Instrucciones
 
 ### Ejercicio I
 
-Crear un nuevo archivo dentro de la carpeta `Desafío` llamado `desafio.html` donde deberás realizar lo siguiente:
+Crear un nuevo archivo dentro de la carpeta `02-Html` llamado `desafio.html` donde deberás realizar lo siguiente:
 
-I. Cree una página HTML básica el cual contenga 2 divisiones:
-
-- En la primera division cree un parrafo que muestre 4 o 5 nombres de lenguajes de programación, separados por un guión.
-
-`Resultado`
-
-![alt text](../_src/assets/02-Html/ejercicio1.PNG)
-
-
-- En la segunda division cree titulos de 5 nombres de lenguajes de programación, partiendo desde el titulo de primer nivel \<h1> hasta el ultimo nivel \<h6>.
-
-`Resultado`
-
-![alt text](../_src/assets/02-Html/ejercicio2.PNG)
-
-
-
-II. Cree una página que contenga un título de primer nivel \<h1> y luego dos títulos de nivel \<h2>. Definir un párrafo lorem para cada título de segundo nivel. 
-
-`Resultado`
-
-![alt text](../_src/assets/02-Html/ejercicio3.PNG)
-
-
-III. Cree una página principal que tenga un enlace a otra página secundaria. La página secundaria debe tener también un enlace a la página principal. 
-
-`Resultado`
-
-![alt text](../_src/assets/02-Html/ejercicio4.PNG)
-
-
-IV. Cree una página que contenga cuatro enlaces ancla, luego definir cuatro enlaces las cuales se enlacen con dichas anclas. 
-
-`Resultado`
-
-![alt text](../_src/assets/02-Html/ejercicio5.PNG)
-
-
-### Ejercicio II
-
-I. Crea una página web haciendo uso de enlaces internos de forma que
-tengamos un menú con dos opciones LarnU y Proyectos. Desde estas opciones podemos movernos a la parte inferior de la pagina donde añadiremos un título y dos párrafos a LarnU y otro título y dos párrafos para Proyectos.
-
-Nota: escribe nombres claros para las anclas y para rellenar los textos usa lorem ipsum.
-
-II. Una empresa de pizzas tiene 3 ofertas del dia. Las cuales son ( 1ra promoción - 1 mozzarella + una bebida que cuesta 5 dolares, 2da promoción - 2 mozzarellas a 6 dolares y 3ra promoción - 4 mozarrellas a 10 dolares).
-
-Crea una página que disponga tres enlaces a cada una de esas ofertas.
-Al ser presionadas abrir, el cliente podrá abrir su correo para poder enviar la promoción elegida. En el título indicar si se trata de la promoción 1, 2 o 3.
-
-III. Crea una tabla el cual muestre la facturación de los últimos tres meses de los artículos de una tienda de electrodomesticos:'Discos Duros', 'CPU' y 'Monitores'. La primer columna debe mostrar solo el texto 'Recursos' y en la primer fila el texto 'Facturación de los últimos tres meses'. 
-
-`Resultado`
-
-![alt text](../_src/assets/02-Html/ejercicio6.PNG)
+```
+I. Cree una página HTML básica
+  A. Cree el diseño básico para una página HTML usando html, head y body.
+  B. Agregue un elemento de título y asigne a su página el título de "Tarea HTML de [Su nombre]".
+  C. En el cuerpo, crea tres divs.
+    1. En el primer div crea:
+      * un elemento h1 que contiene [Tu nombre].
+      * un elemento h2 que contiene "LarnU".
+      * un elemento p que contiene "desafío de HTML / CSS".
+    2. En el segundo div crea:
+      * un elemento h2 que contiene "Mi país favorito es: [Tu país favorito]".
+      * un elemento p que contiene texto que describe el porqué es tu país favorito.
+      * un elemento 'a' que se vincula al enlace de tu país favorito.
+    3. En el tercer div crea:
+      * una lista desordenada con dos elementos dentro de la lista.
+      * una etiqueta img en cada elemento de la lista que se vincula a su país favorito.
+```
+```
+II. Cree una página HTML básica
+  Para este ejercicio la empresa Pizzas LarnU, nos contrató para poder ofrecer las ofertas que tiene en el día por su página web.
+  Las promociones que quiere ofrecer son:
+    -Pizza de mozzarella + una gaseosa a 5 dólares.
+    -Pizza vegetariana + una agua mineral a 8 dólares.
+    -Pizza especial + una gaseosa a 7 dólares.
+  A. Cree el diseño básico para cuatro páginas HTML usando html, head y body.
+    1. En la primera página crea:
+      * un elemento h1 que contiene [El nombre de la empresa].
+      * un elemento h2 que contiene "las promociones del día" y cada h2 contiene: 
+        + un elemento p los cuales contienen alguna descripción de estas promociones.
+      * un elemento 'a' que se vincula a las páginas de las promociones.
+    2. En la segunda, tercera y cuarta página crea:
+      * un elemento h1 que contiene [El nombre de una de la promoción].
+      * un elemento h2 que contiene una descripción de la promoción.
+      * una etiqueta img que se vincula a la pizza en mención.
+      * un elemento 'a' que se vincula a la página principal.
+```
