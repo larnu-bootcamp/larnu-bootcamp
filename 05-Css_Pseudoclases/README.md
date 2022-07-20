@@ -3,7 +3,7 @@
 <br>
 <br>
 
-# Desafío: CSS_Pseudoclases
+# Desafío: css_pseudoclases
 
 ## Instrucciones
 
@@ -134,10 +134,10 @@ VII. Inserte la imagen "smiley.gif" antes y después de cualquier elemento `<p>`
 
 ```
 <style>
-p::before {
+tuCodigoAca {
   tuCodigoAca: url('smiley.gif');
 }
-p::after {
+tuCodigoAca {
   tuCodigoAca: url('smiley.gif');
 }
 </style>
@@ -147,71 +147,5 @@ p::after {
 <p>This is a paragraph.</p>
 <p>This is a paragraph.</p>
 
-</body>
-```
-
-VIII. Establezca la fuente para `<h1>` en "Verdana".
-
-```
-<style>
-h1 {
-  tuCodigoAca: Verdana;
-}
-</style>
-
-<body>
-  <h1>This is a heading</h1>
-  <p>This is a paragraph</p>
-</body>
-```
-
-IX. Establezca el tamaño de fuente de `<h1>` en 50 px.
-
-```
-<style>
-h1 {
-  tuCodigoAca: 50px;
-}
-</style>
-
-<body>
-  <h1>This is a heading</h1>
-  <p>This is a paragraph</p>
-</body>
-```
-
-X. Coloque el elemento `<h1>` para que siempre esté a 50 px desde la parte superior y 10 px desde la derecha, en relación con los bordes de la ventana/marco.
-
-```
-<style>
-h1 {
-  tuCodigoAca: tuCodigoAca;
-  tuCodigoAca: 50px;
-  tuCodigoAca: 10px;
-}
-</style>
-
-<body>
-  <h1>This is a heading</h1>
-  <p>This is a paragraph</p>
-  <p>This is a paragraph</p>
-</body>
-```
-
-XI. Coloque el elemento `<h1>` a 50 px de la parte superior, en relación con su posición normal.
-
-```
-<style>
-<style>
-h1 {
-  tuCodigoAca: tuCodigoAca;
-  tuCodigoAca: 50px;
-}
-</style>
-
-<body>
-  <h1>This is a heading</h1>
-  <p>This is a paragraph</p>
-  <p>This is a paragraph</p>
 </body>
 ```
