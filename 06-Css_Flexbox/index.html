@@ -1,0 +1,116 @@
+<!-- You will not need to change anything in this file make sure all of your work is in styles.css -->
+<html>
+
+<head>
+  <title>Posicionamiento CSS</title>
+  <link rel="stylesheet" href="./assets/css/styles.css">
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+  <h1 class="titulo">Acá va el título de la lección</h1>
+  <h2 class="subtitulo">Trabajo de Posicionamiento CSS</h2>
+  <div class="contenedor">
+    <h3>Instrucciones:</h3>
+    <p class="contenedor__instrucciones">
+      En este desafío vamos a usar las propiedades "display", "position" y "flexbox", para posicionar nuestros elementos
+      correctamente en la página. El único archivo que necesitas modificar para este desafío es el archivo "styles.css"
+      que se encuentra en esta misma carpeta.
+      Debes usar las clases, y selectores de elemento que vimos en clase.
+    </p>
+  </div>
+  <div class="contenedor">
+    <h3 class="contenedor__titulo">Ejercicio 1:</h3>
+    <span class="contenedor__span_uno">
+      En este primer ejercicio deberás asegurarte que el texto dentro de este parrafo este centrado en la página. La
+      clase de este parrafo es "contenedor__span_uno". El texto solo tiene una forma de alinear conocido como
+      "text-align", para el cual podemos definir los valores "left", "right", "center" o "justify", pero esto solo
+      funcion dentro de los elementos "block" y el span inicialmente es un elemento "inline". Define la propiedad
+      "display" para que sea "block" y centra el texto usando "text-align".
+    </span>
+  </div>
+  <div class="contenedor">
+    <h3 class="contenedor__titulo">Ejercicio 2:</h3>
+    <span>
+      Hay una caja con un texto en la parte superior de la pantalla. Eso se supone que es un "placeholder" hasta que
+      tengamos el título de la sección definido. Desafortunadamente no tenemos acceso al HTML, por lo que no podemos
+      ocultarlo modificando el HTML. Usando solo CSS, asegúrate que la caja no sea mostrada. La clase de lo que tienes
+      que ocultar es "titulo".
+    </span>
+  </div>
+  <div class="contenedor">
+    <h3 class="contenedor__titulo">Ejercicio 3:</h3>
+    <span>
+      Debajo verás una caja, la cual contiene dentro una imagen, queremos asegurar que esa imagen se
+      posicione dentro de la cajita roja, para ello debes cambiar el atributo "position", y después ajustar la imagen
+      acorde a la caja.
+      La caja roja está a 100 píxeles del margen superior y 200 píxeles desde la izquierda. La clase de la imagen es
+      "contenedor_objetivo__ejercicio_tres".
+    </span>
+    <div class="contenedor_imagen">
+      <div class="contenedor_objetivo"></div>
+      <img class="contenedor_objetivo__ejercicio_tres" src="./assets/img/artic-fox.png" />
+      <div class="spanDescriptivo">
+        <span>Esta es la imagen de un mas tierna de un zorro ártico. Esperamos que la disfrutes XD</span>
+      </div>
+    </div>
+  </div>
+  <div class="contenedor">
+    <h3 class="contenedor__titulo">Ejercicio 4:</h3>
+    <span>
+      La caja azul que esta debajo, se supone que debe ser nuestro header, por lo que debe estar fijo en la parte
+      superior izquierda de la página, y la posición no debería variar cuando la página sea scrolleada.
+      El id de la caja es "ejercicioCuatro". Cambia la posición de esa caja a la esquina superior izquierda.
+    </span>
+  </div>
+  <div class="contenedor__ejercicio_cuatro">
+    <div class="contenedor__ejercicio_cinco">
+      <span class="contenedor__ejercicio_cinco-span">LarnU</span>
+      <img class="contenedor__ejercicio_cinco-img" src="../_src/assets/00-PrimerosPasos/logo_LarnU.png" />
+      <span>Desafío de posicionamiento</span>
+    </div>
+  </div>
+  <div class="contenedor">
+    <h3 class="contenedor__titulo">Ejercicio 5:</h3>
+    <span>
+      En el header hay tres elementos; "Desafío de posicionamiento", el logo de Henry y "LarnU".
+      Usando la clase "contenedor__ejercicio_cinco", configuraremos este container con "flexbox", y nos aseguraremos que
+      cada elemento está distanciado de manera proporcional entre ellos. También queremos que cada elemento aparezca
+      centrado verticalmente en la línea.
+    </span>
+  </div>
+  <div class="contenedor">
+    <h3 class="contenedor__titulo">Ejercicio 6:</h3>
+    <span>
+      Ahora que los elementos del header están espaciados adecuadamente, vemos que quedaron desordenados. "Desafío de
+      posicionamiento" debería estar a la izquierda, y LarnU a la derecha. Usando la misma clase que en el ejercicio
+      anterior, cambia la dirección en el cual aparecen los elementos.
+    </span>
+  </div>
+  <div class="contenedor">
+    <h3 class="contenedor__titulo">Ejercicio 7:</h3>
+    <span>
+      Este es un "playground" de la propiedad flexbox, la clase es "ejercicioSiete". No hay un objetivo final en este
+      ejercicio, puedes jugar con estos elementos y las diferentes opciones de flexbox. La clase de los elementos están
+      escritos en los mismos. Prueba usando los conceptos que aprendimos sobre flexbox, incluyendo: "justify-content",
+      "align-items", "align-self", y "flex-direction".
+    </span>
+  </div>
+  <div class="contenedor__ejercicio_siete">
+    <div class="elementos elementoUno"><span class="textoElemento">clase "elementoUno"</span></div>
+    <div class="elementos elementoDos"><span class="textoElemento">clase "elementoDos"</span></div>
+    <div class="elementos elementoTres"><span class="textoElemento">clase "elementoTres"</span></div>
+    <div class="elementos elementoCuatro"><span class="textoElemento">clase "elementoCuatro"</span></div>
+  </div>
+  <div class="contenedor">
+    <h3 class="contenedor__titulo">Punto extra 1:</h3>
+    <span>
+      Hay bastantes opciones de flexbox y pueden complicarse, pero a través de la prática puedes aprender
+      a ajustar rápidamente el posicionamiento de tus elementos con facilidad. Te recomendamos el tutorial
+      "Flexbox Froggy", el cual te enseñará en profundidad cómo funciona el elemento de posicionamiento "flexbox":
+      <a href="http://www.flexboxfroggy.com" target="_blank_">Flexbox Froggy</a>
+    </span>
+  </div>
+</body>
+
+</html>

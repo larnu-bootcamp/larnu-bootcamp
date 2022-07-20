@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+  background: #f8f5ff;
+  margin: 95px 0 100px 0;
+  color: #2f2f2f;
+  font-family: 'Poppins', sans-serif;
+}
+
+.titulo {
+  height: 50px;
+  text-align: center;
+  border: solid thin purple;
+  padding: 1rem;
+}
+
+.subtitulo {
+  text-align: center;
+}
+
+.contenedor {
+  padding: 1rem;
+}
+
+
+.contenedor_imagen {
+  width: 1000px;
+  height: 500px;
+  border: 4px solid #640d60;
+  background-color: #ffe8e8;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  position: relative;
+}
+
+.contenedor_objetivo {
+  width: 400px;
+  height: 300px;
+  border: dashed 3px rgb(107, 0, 0);
+  position: absolute;
+  top: 95px;
+  left: 195px;
+}
+
+#spanDescriptivo {
+  position: absolute;
+  top: 100px;
+  left: 615px;
+  padding-right: 20px;
+
+}
+
+.contenedor__ejercicio_cuatro {
+  display: block;
+  width: 100vw;
+  height: 70px;
+  background-color: #3574d2;
+}
+
+.contenedor__ejercicio_cinco-img {
+  width: 15%;
+}
+
+.contenedor__ejercicio_cinco-span {
+  font-size: 20px;
+  color: white;
+}
+
+.contenedor__ejercicio_cinco {
+  padding: 0 10px;
+}
+
+.contenedor__ejercicio_siete {
+  width: 600px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px solid black;
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+}
+
+.textoElemento {
+  display: block;
+  text-align: center;
+  align-self: center;
+}
+
+.elementos {
+  width: 150px;
+  height: 100px;
+  display: flex;
+  background-color: white;
+}
+
+.elementoUno {
+  border: 2px dashed green;
+}
+
+.elementoDos {
+  border: 2px dashed orange;
+}
+
+.elementoTres {
+  border: 2px dashed blue;
+}
+
+.elementoCuatro {
+  border: 2px dashed red;
+}

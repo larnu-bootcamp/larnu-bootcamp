@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registro de Nuevo Usuario</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="./assets/css/styles.css">
+  <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 640px)">
+  <link rel="stylesheet" href="tablet.css" media="screen and (min-width: 640px) and (max-width: 1280px)">
+  <link rel="stylesheet" href="desktop.css" media="screen and (min-width: 1280px)">
+</head>
+
+<body>
+  <section class="contenedor">
+    <div class="contenedor__titulo">
+      <div class="contenedor__mensaje">
+        <h2 class="contenedor__subtitulo">Bienvenido a LarnU</h2>
+        <p class="contenedor__parrafo">Si ya tienes una cueta, inicia sesión aquí</p>
+        <button id="contenedor__boton" class="contenedor__boton">Iniciar Sesión</button>
+        <!--TODO: al hacer click redirigir a login/index.html-->
+      </div>
+    </div>
+    <form action="" id="form" class="form">
+      <h2 class="form__titulo">Crear una cuenta</h2>
+      <div class="form__contenedoriconos">
+        <div class="form__iconos">
+          <i class='bx bxl-facebook-square'></i>
+        </div>
+        <div class="form__iconos">
+          <i class='bx bxl-google'></i>
+        </div>
+        <div class="form__iconos">
+          <i class='bx bxl-github'></i>
+        </div>
+      </div>
+      <p class="form__parrafo">Crear una cuenta</p>
+      <input class="form__input" required id="nombre" type="text" placeholder="Nombre">
+      <input class="form__input" required id="email" type="email" placeholder="Email">
+      <input class="form__input" required id="contrasenia" type="password" placeholder="Contraseña">
+      <button id="form__button" type="submit" class="form__input form__input-color">Registrarse</button>
+    </form>
+  </section>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
