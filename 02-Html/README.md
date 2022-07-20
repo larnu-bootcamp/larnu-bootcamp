@@ -7,8 +7,6 @@
 
 ## Instrucciones
 
-### Ejercicio I
-
 Crear un nuevo archivo dentro de la carpeta `02-Html` llamado `desafio.html` donde deberás realizar lo siguiente:
 
 ```
