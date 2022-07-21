@@ -3,7 +3,7 @@
 <br>
 <br>
 
-# Desafío: CSS_Flexbox
+# Desafío: css_grid
 
 ## Instrucciones
 
